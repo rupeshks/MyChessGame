@@ -8,4 +8,46 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ChessAssets\BishopB.png" />
+    <None Remove="ChessAssets\BishopW.png" />
+    <None Remove="ChessAssets\Board.png" />
+    <None Remove="ChessAssets\CursorB.cur" />
+    <None Remove="ChessAssets\CursorW.cur" />
+    <None Remove="ChessAssets\icon.ico" />
+    <None Remove="ChessAssets\KingB.png" />
+    <None Remove="ChessAssets\KingW.png" />
+    <None Remove="ChessAssets\KnightB.png" />
+    <None Remove="ChessAssets\KnightW.png" />
+    <None Remove="ChessAssets\PawnB.png" />
+    <None Remove="ChessAssets\PawnW.png" />
+    <None Remove="ChessAssets\QueenB.png" />
+    <None Remove="ChessAssets\QueenW.png" />
+    <None Remove="ChessAssets\RookB.png" />
+    <None Remove="ChessAssets\RookW.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChessLogics\ChessLogics.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ChessAssets\BishopB.png" />
+    <Resource Include="ChessAssets\BishopW.png" />
+    <Resource Include="ChessAssets\Board.png" />
+    <Resource Include="ChessAssets\CursorB.cur" />
+    <Resource Include="ChessAssets\CursorW.cur" />
+    <Resource Include="ChessAssets\icon.ico" />
+    <Resource Include="ChessAssets\KingB.png" />
+    <Resource Include="ChessAssets\KingW.png" />
+    <Resource Include="ChessAssets\KnightB.png" />
+    <Resource Include="ChessAssets\KnightW.png" />
+    <Resource Include="ChessAssets\PawnB.png" />
+    <Resource Include="ChessAssets\PawnW.png" />
+    <Resource Include="ChessAssets\QueenB.png" />
+    <Resource Include="ChessAssets\QueenW.png" />
+    <Resource Include="ChessAssets\RookB.png" />
+    <Resource Include="ChessAssets\RookW.png" />
+  </ItemGroup>
+
 </Project>
