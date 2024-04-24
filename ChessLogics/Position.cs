@@ -19,7 +19,7 @@ namespace ChessLogics
             return Player.Black;
         }
 
-        public override bool Equals(object? obj)
+        public override bool Equals(object obj)
         {
             return obj is Position position &&
                    Row == position.Row &&
@@ -31,12 +31,12 @@ namespace ChessLogics
             return HashCode.Combine(Row, Column);
         }
 
-        public static bool operator ==(Position? left, Position? right)
+        public static bool operator ==(Position left, Position right)
         {
             return EqualityComparer<Position>.Default.Equals(left, right);
         }
 
-        public static bool operator !=(Position? left, Position? right)
+        public static bool operator !=(Position left, Position right)
         {
             return !(left == right);
         }
